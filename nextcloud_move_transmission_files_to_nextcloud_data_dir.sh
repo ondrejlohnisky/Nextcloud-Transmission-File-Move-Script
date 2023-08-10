@@ -129,12 +129,10 @@ for file in "$source_dir"/*; do
                         echo "Ownership change successful."
                     else
                         echo "Error changing ownership."
-                        # You might want to perform some cleanup or additional handling here
                         continue
                     fi
                 else
                     echo "Error moving file."
-                    # You might want to perform some cleanup or additional handling here
                     continue
                 fi
             elif [ -d "$file" ]; then
@@ -154,12 +152,10 @@ for file in "$source_dir"/*; do
                         echo "Ownership change successful."
                     else
                         echo "Error changing ownership."
-                        # You might want to perform some cleanup or additional handling here
                         continue
                     fi
                 else
                     echo "Error moving folder."
-                    # You might want to perform some cleanup or additional handling here
                     continue
                 fi
             fi
