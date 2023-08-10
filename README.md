@@ -1,6 +1,6 @@
 # Nextcloud Transmission File Move Script
+<img width="379" alt="Snímek obrazovky 2023-08-10 v 5 43 47" src="https://github.com/ondrejlohnisky/Nextcloud-Transmission-File-Move-Script/assets/28301603/1d057f73-1474-415d-8a63-638775bf8945">
 
-<img width="379" alt="Snímek obrazovky 2023-08-10 v 5 43 47" src="https://github.com/ondrejlohnisky/Nextcloud-Transmission-File-Move-Script/assets/28301603/fff3f84c-2a35-4984-92e8-fcf709907c5f">
 
 This Bash script automates the process of moving downloaded files from the Transmission download directory to a specified Nextcloud data directory. The script also interacts with the Transmission API to manage torrents based on their upload ratios.
 ====
